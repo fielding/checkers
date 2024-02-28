@@ -11,8 +11,8 @@ option go_package = "github.com/fielding/checkers/x/checkers/types";
 
 // GenesisState defines the checkers module's genesis state.
 message GenesisState {
-  Params params = 1 [(gogoproto.nullable) = false];
-  SystemInfo systemInfo = 2;
-  repeated StoredGame storedGameList = 3 [(gogoproto.nullable) = false];
+  Params params = 1 [ (gogoproto.nullable) = false ];
+  SystemInfo systemInfo = 2 [ (gogoproto.nullable) = false ];
+  repeated StoredGame storedGameList = 3 [ (gogoproto.nullable) = false ];
   // this line is used by starport scaffolding # genesis/proto/state
 }
