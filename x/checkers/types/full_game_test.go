@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/fielding/checkers/testutil"
 	"github.com/fielding/checkers/x/checkers/rules"
+	"github.com/fielding/checkers/x/checkers/testutil"
 	"github.com/fielding/checkers/x/checkers/types"
 	"github.com/stretchr/testify/require"
 )
